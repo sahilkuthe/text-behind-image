@@ -1,23 +1,46 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# Dependencies
 /node_modules
-/.pnp
-.pnp.js
 
-# testing
-/coverage
-
-# production
+# Production build
 /build
 
-# misc
-.DS_Store
+# Environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Python virtual environment
+backend/venv/
+/venv
+
+
+# Cached files
+.cache/
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Other
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
